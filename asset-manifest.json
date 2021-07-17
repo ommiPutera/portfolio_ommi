@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/portfolio_ommi/static/css/main.4769d918.chunk.css",
+    "main.js": "/portfolio_ommi/static/js/main.7b19ee62.chunk.js",
+    "main.js.map": "/portfolio_ommi/static/js/main.7b19ee62.chunk.js.map",
+    "runtime-main.js": "/portfolio_ommi/static/js/runtime-main.670c83c8.js",
+    "runtime-main.js.map": "/portfolio_ommi/static/js/runtime-main.670c83c8.js.map",
+    "static/css/2.150d169a.chunk.css": "/portfolio_ommi/static/css/2.150d169a.chunk.css",
+    "static/js/2.fb3f9eb1.chunk.js": "/portfolio_ommi/static/js/2.fb3f9eb1.chunk.js",
+    "static/js/2.fb3f9eb1.chunk.js.map": "/portfolio_ommi/static/js/2.fb3f9eb1.chunk.js.map",
+    "static/js/3.e1500dbe.chunk.js": "/portfolio_ommi/static/js/3.e1500dbe.chunk.js",
+    "static/js/3.e1500dbe.chunk.js.map": "/portfolio_ommi/static/js/3.e1500dbe.chunk.js.map",
+    "index.html": "/portfolio_ommi/index.html",
+    "static/css/2.150d169a.chunk.css.map": "/portfolio_ommi/static/css/2.150d169a.chunk.css.map",
+    "static/css/main.4769d918.chunk.css.map": "/portfolio_ommi/static/css/main.4769d918.chunk.css.map",
+    "static/js/2.fb3f9eb1.chunk.js.LICENSE.txt": "/portfolio_ommi/static/js/2.fb3f9eb1.chunk.js.LICENSE.txt",
+    "static/media/Home.a8fdc5eb.png": "/portfolio_ommi/static/media/Home.a8fdc5eb.png",
+    "static/media/error-404.9b3e0966.svg": "/portfolio_ommi/static/media/error-404.9b3e0966.svg",
+    "static/media/home_1.efa10d58.jpg": "/portfolio_ommi/static/media/home_1.efa10d58.jpg",
+    "static/media/map.e3f08fcf.png": "/portfolio_ommi/static/media/map.e3f08fcf.png",
+    "static/media/portofolio-web-1.6e16ca57.png": "/portfolio_ommi/static/media/portofolio-web-1.6e16ca57.png",
+    "static/media/portofolio-web-2.eb421755.png": "/portfolio_ommi/static/media/portofolio-web-2.eb421755.png",
+    "static/media/portofolio-web-3.62f75a96.png": "/portfolio_ommi/static/media/portofolio-web-3.62f75a96.png",
+    "static/media/portofolio-web-4.94b46aee.png": "/portfolio_ommi/static/media/portofolio-web-4.94b46aee.png",
+    "static/media/portofolio-web.37f26a64.png": "/portfolio_ommi/static/media/portofolio-web.37f26a64.png",
+    "static/media/prfl.f3b1d633.JPG": "/portfolio_ommi/static/media/prfl.f3b1d633.JPG",
+    "static/media/prflfront.c6180c0a.JPG": "/portfolio_ommi/static/media/prflfront.c6180c0a.JPG",
+    "static/media/sketch.188150a1.svg": "/portfolio_ommi/static/media/sketch.188150a1.svg",
+    "static/media/test.5bbdfc26.jpg": "/portfolio_ommi/static/media/test.5bbdfc26.jpg",
+    "static/media/testaja.15843f07.png": "/portfolio_ommi/static/media/testaja.15843f07.png",
+    "static/media/wlpr.c10abe55.jpg": "/portfolio_ommi/static/media/wlpr.c10abe55.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.670c83c8.js",
+    "static/css/2.150d169a.chunk.css",
+    "static/js/2.fb3f9eb1.chunk.js",
+    "static/css/main.4769d918.chunk.css",
+    "static/js/main.7b19ee62.chunk.js"
+  ]
+}
