@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio_ommi/static/css/main.4769d918.chunk.css",
-    "main.js": "/portfolio_ommi/static/js/main.ca6e0797.chunk.js",
-    "main.js.map": "/portfolio_ommi/static/js/main.ca6e0797.chunk.js.map",
+    "main.js": "/portfolio_ommi/static/js/main.393b3cd4.chunk.js",
+    "main.js.map": "/portfolio_ommi/static/js/main.393b3cd4.chunk.js.map",
     "runtime-main.js": "/portfolio_ommi/static/js/runtime-main.670c83c8.js",
     "runtime-main.js.map": "/portfolio_ommi/static/js/runtime-main.670c83c8.js.map",
     "static/css/2.150d169a.chunk.css": "/portfolio_ommi/static/css/2.150d169a.chunk.css",
@@ -35,6 +35,6 @@
     "static/css/2.150d169a.chunk.css",
     "static/js/2.69795dfc.chunk.js",
     "static/css/main.4769d918.chunk.css",
-    "static/js/main.ca6e0797.chunk.js"
+    "static/js/main.393b3cd4.chunk.js"
   ]
 }
