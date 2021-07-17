@@ -1,0 +1,83 @@
+.project-div {
+  margin-top: 70px;
+  margin-left: 140px;
+  margin-right: 140px;
+}
+
+.project-1-content-1 {
+  text-align: center;
+}
+
+.project-div-1 {
+  display: flex;
+  color: white;
+  margin-top: -20%;
+  padding-top: 25%;
+  padding-left: 140px;
+  padding-right: 140px;
+  background-color: var(--color_primary);
+  height: 950px;
+}
+
+.div-project-detail {
+  text-align: center;
+  margin-top: -50px;
+}
+
+.pic-project {
+  width: 100%;
+  margin-top: 3%;
+}
+
+.pic-project_1 {
+  text-align: center !important;
+  margin-bottom: 20px;
+}
+
+.project-text-1 {
+  flex: 1;
+}
+
+.project-text-2 {
+  flex: 1;
+}
+
+.skills-project {
+  margin-top: 0px !important;
+}
+
+.pemisah-skills {
+  margin-left: 7%;
+  margin-right: 7%;
+}
+
+.color-project-1 {
+  background-color: #052c43;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.color-project-2 {
+  background-color: #719db0;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-left: -3%;
+}
+
+.color-project-3 {
+  background-color: #d4eaf5;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-left: -3%;
+}
+
+.color-project-4 {
+  background-color: white;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-left: -3%;
+}

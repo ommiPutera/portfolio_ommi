@@ -1,0 +1,35 @@
+.notfound-page {
+  text-align: center;
+  margin-top: 13%;
+  background-color: white;
+}
+
+.text-notfound {
+  margin-top: 2%;
+  font-size: 18px;
+  color: var(--color_dominan);
+}
+
+.button-404 {
+  background-color: var(--color_primary);
+  border: 2px solid transparent;
+  padding-top: 10px;
+  margin-top: 2.5%;
+  width: 170px;
+  height: 45px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  transition: all 0.5s ease-out;
+  color: white;
+}
+
+.button-404:hover {
+  background-color:white;
+  border: 2px solid var(--color_primary);
+  transition: all 0.5s ease-out;
+  color: var(--color_primary);
+}
+
+.text-home {
+  font-size: 16px;
+}
