@@ -9,6 +9,7 @@ import {
   SiHtml5,
   SiBootstrap,
   SiMysql,
+  SiMaterialUi
 } from "react-icons/si";
 import Header from "../component/Header";
 import Loader from "../component/Loader";
@@ -49,10 +50,16 @@ class Project_1 extends Component {
               </h5>
             </a>
             <h1 className="text-0">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque
-              quidem laborum eveniet nobis, quam, error, reiciendis expedita
-              inventore omnis cupiditate iure? Soluta, animi deleniti distinctio
-              iusto id expedita officiis obcaecati.
+              The first thing that will be seen on this website is the home page
+              and where is the header for navigation on this website, if you
+              click the login button then you will be taken to the login page,
+              and if the signup button will be taken to the registration page to
+              create a user account and there is a collection button which will
+              go to the product list page. Users can log in to the website using
+              their username or email and the password that has been sign up by
+              the user at the time of registration will be automatically hashed
+              using SHA-256. for note . "Continue with Google" and "Continue
+              with Facebook" buttons are not activated for now, it will be soon.
             </h1>
             <img className="pic-project" src={home_1} alt="project_1" />
           </div>
@@ -63,10 +70,11 @@ class Project_1 extends Component {
               About the <span className="color-2">E-learning</span> Project
             </h1>
             <h5 className="text-4">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore,
-              veritatis, debitis blanditiis, quos deserunt fuga quae facilis ex
-              recusandae non maiores ab officiis nesciunt totam commodi
-              necessitatibus beatae tempora? Blanditiis?.
+              If users have logged in then the navigation header will assist the
+              user in making transactions on this website. Users cannot add
+              products to the cart if they have not verified their account via
+              email. Users can add the product they like to the cart, and
+              checkout after filling in the shipping address.
             </h5>
             <div className="container-text-about-4">
               <div className="text-about-4">
@@ -116,6 +124,10 @@ class Project_1 extends Component {
                 <p className="list-front">
                   <SiRedux className="icon-skills" />
                   Redux
+                </p>
+                <p className="list-front">
+                  <SiMaterialUi className="icon-skills" />
+                  Material UI
                 </p>
                 <p className="list-front">
                   <SiBootstrap className="icon-skills" />

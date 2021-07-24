@@ -13,21 +13,19 @@ import "./style/Project.css";
 
 class Project extends Component {
   state = {
-    loading: true
+    loading: true,
   };
 
   componentDidMount() {
     setTimeout(() => {
-      this.setState({ loading: false })
-   }, 500);
+      this.setState({ loading: false });
+    }, 500);
   }
 
   render() {
     return (
       <div>
-        {
-          this.state.loading ? <Loader /> : null
-        }
+        {this.state.loading ? <Loader /> : null}
         <Header />
         <div className="content-project-top">
           <div className="content-project-1-left">
@@ -36,10 +34,10 @@ class Project extends Component {
             </h1>
             <h1 className="text-1">Projects:</h1>
             <h1 className="text-0">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque
-              quidem laborum eveniet nobis, quam, error, reiciendis expedita
-              inventore omnis cupiditate iure? Soluta, animi deleniti distinctio
-              iusto id expedita officiis obcaecati.
+              Here is a project I have worked on and am currently working on.
+              there are many parts of these projects that I haven't fully
+              completed but I will always update these projects as my skills
+              improve
             </h1>
             <div className="content-project-sub">
               <div className="pic-pro-1">
@@ -98,10 +96,11 @@ class Project extends Component {
               Project that i've completed
             </h1>
             <h1 className="text-0 text-project-bottom white">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque
-              quidem laborum eveniet nobis, quam, error, reiciendis expedita
-              inventore omnis cupiditate iure? Soluta, animi deleniti distinctio
-              iusto id expedita officiis obcaecati.
+              Here is my first class project while still learning the basics of
+              programming. this website is purely using only HTML and CSS. there
+              are a lot of empty pages due to time constraints and because
+              learning continues, but don't worry I will update the website to
+              make it better.
             </h1>
             <div className="content-project-sub-2">
               <div className="pic-pro-1">
@@ -136,8 +135,7 @@ class Project extends Component {
                 </div>
               </div>
               <div className="pemisah"></div>
-              <div className="pic-pro-3">
-              </div>
+              <div className="pic-pro-3"></div>
             </div>
           </div>
         </div>

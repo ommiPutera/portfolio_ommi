@@ -31,14 +31,12 @@ class AboutMe extends Component {
               Hi, I'm <span className="color-2">Ommi</span>
             </h1>
             <h1 className="text-about-2">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla
-              magni minus, laudantium, quibusdam.
+              I am a bachelor of economics and love graphic design and now I
+              really enjoy my new skill which is front-end development.
             </h1>
             <h1 className="text-about-3">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et ab
-              enim nam, eos quod mollitia quidem porro fugiat sunt quia
-              necessitatibus itaque, optio id? Aliquam quasi dolorem ipsam natus
-              eveniet?
+              Now I'm interested in learning typescript, next.js, sass. and
+              maybe I'll try more frontend developer frameworks.
             </h1>
             <div className="container-text-about-4">
               <div className="text-about-4">

@@ -20,7 +20,9 @@ import {
   SiMysql,
   SiSocketDotIo,
   SiInstagram,
+  SiMaterialUi,
 } from "react-icons/si";
+import { FiFigma } from "react-icons/fi";
 import Header from "../component/Header";
 import home_2 from "../assets/Home.png";
 import prflfront from "../assets/prflfront.JPG";
@@ -35,8 +37,8 @@ class Home extends Component {
 
   componentDidMount() {
     setTimeout(() => {
-      this.setState({ loading: false })
-   }, 500);
+      this.setState({ loading: false });
+    }, 500);
   }
 
   toggleX = () => {
@@ -54,9 +56,7 @@ class Home extends Component {
   render() {
     return (
       <div>
-        {
-          this.state.loading ? <Loader /> : null
-        }
+        {this.state.loading ? <Loader /> : null}
         <Header />
         <div className="home-content">
           <div className="content-1">
@@ -70,9 +70,13 @@ class Home extends Component {
               I am a <span className="color-2">Front-end</span> Developer
             </h1>
             <h5 className="text-0">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Cupiditate voluptatem dignissimos maiores fugit eius? Ratione
-              voluptas consequatur amet blanditiis quasi.
+              After I graduated from college, I decided to further develop
+              myself into the digital world which I think is more promising for
+              my future career. Previously, I had expertise in graphic design
+              such as Adobe Illustrator. After joining the Job Connector Web
+              Development program, I have a new skill, namely web programming
+              using javascript language, and an interest in the frontend
+              developer job position.
             </h5>
             <Link to="/project">
               <button className="button" style={{ borderRadius: "80px" }}>
@@ -93,10 +97,11 @@ class Home extends Component {
               at?
             </h1>
             <h5 className="text-4">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore,
-              veritatis, debitis blanditiis, quos deserunt fuga quae facilis ex
-              recusandae non maiores ab officiis nesciunt totam commodi
-              necessitatibus beatae tempora? Blanditiis?.
+              I have experience building real projects from scratch in class
+              projects and personal projects, each project using React.js and
+              the Javascript programming language. I am also familiar with
+              version management git because every project always uses Github
+              for code collaboration with my friends in class.
             </h5>
             <div className="text-4-icon">
               <a
@@ -162,6 +167,10 @@ class Home extends Component {
                   Bootstarp
                 </p>
                 <p className="list-front">
+                  <SiMaterialUi className="icon-skills" />
+                  Material UI
+                </p>
+                <p className="list-front">
                   <SiReact className="icon-skills" />
                   React Native
                 </p>
@@ -173,6 +182,10 @@ class Home extends Component {
                 <p className="list-front">
                   <SiAdobeillustrator className="icon-skills" />
                   Adobe Illustration
+                </p>
+                <p className="list-front">
+                  <FiFigma className="icon-skills" />
+                  Figma
                 </p>
               </div>
               <div className="skills-front">
@@ -226,19 +239,19 @@ class Home extends Component {
           <div className="text-6">
             <h5 className="text-pic">Final Project</h5>
             <h5 className="text-pic-sub">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore,
-              veritatis, debitis blanditiis, quos deserunt fuga quae facilis ex
-              recusandae non maiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore,
-              veritatis, debitis blanditiis, quos deserunt fuga quae facilis ex
-              recusandae non maiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore,
-              veritatis, debitis blanditiis, quos deserunt fuga quae facilis ex
-              recusandae non maiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore,
-              veritatis, debitis blanditiis, quos deserunt fuga quae facilis ex
-              recusandae non maiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore,
-              veritatis, debitis blanditiis, quos deserunt fuga quae facilis ex
-              recusandae non maiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore,
-              veritatis, debitis blanditiis, quos deserunt fuga quae facilis ex
-              recusandae non maiores.
+              At Bootcamp which consisted of me, Alghi, Willy, and mentors were
+              Aldino Rahman and M. Rasyid Hakim we created an end-to-end website
+              using the agile method that was applied to this project. This
+              project is complicated for us as students because this project has
+              an admin page that will process all transactions made by user,
+              lots of data exchange between the user and the admin page. What
+              makes this project interesting is that if the user orders a
+              product at the nearest warehouse but the product's stock is
+              currently running out, the admin can request stock from another
+              warehouse and can still respond to user requests. My contributions
+              to this project are the Register page, Login page, Email
+              verification, Admin Transaction, Processing orders, Requesting
+              stock, Add new warehouse.
             </h5>
             <div className="link">
               <Link to="/project_1">
@@ -255,10 +268,8 @@ class Home extends Component {
             projects?
           </h1>
           <h5 className="text-content-6">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore,
-            veritatis, debitis blanditiis, quos deserunt fuga quae facilis ex
-            recusandae non maiores ab officiis nesciunt totam commodi
-            necessitatibus beatae tempora? Blanditiis?
+            There are more other projects that might interest you. Please click
+            the button below to get to that page.
           </h5>
           <Link to="/project">
             <button className="button-7" style={{ borderRadius: "80px" }}>
@@ -273,10 +284,11 @@ class Home extends Component {
             <span className="color-2">Let’s</span> work together!
           </h1>
           <h5 className="text-content-6">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore,
-            veritatis, debitis blanditiis, quos deserunt fuga quae facilis ex
-            recusandae non maiores ab officiis nesciunt totam commodi
-            necessitatibus beatae tempora? Blanditiis?
+            I am very open to a full-time job or internship, I hope we can talk
+            and discuss what I can give and present for the company or project
+            you are working on. please contact me if you have any questions and
+            job opportunities for me. I would be fortunate if we could
+            collaborate.
           </h5>
           <Link to="/contact">
             <button className="button-7" style={{ borderRadius: "80px" }}>
