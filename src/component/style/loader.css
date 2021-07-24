@@ -1,0 +1,13 @@
+.loading {
+  z-index: 1000;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255);
+  clip-path: (2700px at 90%);
+  -webkit-clip-path: circle(2700px at 90%);
+  transition: all 1s ease-in-out;
+}

@@ -88,24 +88,25 @@ class Header extends Component {
 
   componentDidMount() {
     window.addEventListener("scroll", this.listenToScroll);
-    if (window.location.href.replace("http://localhost:3000", "") === "/") {
+    let link = "https://ommiputera.github.io/portfolio_ommi/#"
+    if (window.location.href.replace(link, "") === "/") {
       this.setState({
         isCurrentPage_1: false,
       });
     } else if (
-      window.location.href.replace("http://localhost:3000", "") === "/contact"
+      window.location.href.replace(link, "") === "/contact"
     ) {
       this.setState({
         isCurrentPage_2: false,
       });
     } else if (
-      window.location.href.replace("http://localhost:3000", "") === "/project"
+      window.location.href.replace(link, "") === "/project"
     ) {
       this.setState({
         isCurrentPage_3: false,
       });
     } else if (
-      window.location.href.replace("http://localhost:3000", "") === "/aboutme"
+      window.location.href.replace(link, "") === "/aboutme"
     ) {
       this.setState({
         isCurrentPage_4: false,
@@ -117,7 +118,7 @@ class Header extends Component {
     return (
       <div className="container_header">
         <div className="name_ommi">
-          <a href="/" className="button_logoX hover-1">
+          <a href="/portfolio_ommi/#/" className="button_logoX hover-1">
             OMI<span className='color-2 dot-size'>.</span>
           </a>
         </div>

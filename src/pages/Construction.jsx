@@ -9,7 +9,7 @@ class Construction extends Component {
     return (
       <div>
         <div className="notfound-page">
-          <img src={construction} alt="construction" width="100px" height="100px" />
+          <img src={construction} alt="construction" width="200px" height="200px" />
           <h1 className="text-notfound">Ooops! page under construction..</h1>
           <Link to="/">
             <button className="button-404" style={{ borderRadius: "80px" }}>
