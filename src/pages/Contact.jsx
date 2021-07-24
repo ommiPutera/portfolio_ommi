@@ -3,13 +3,26 @@ import { GoMarkGithub } from "react-icons/go";
 import { SiInstagram } from "react-icons/si";
 import { FaLinkedin } from "react-icons/fa";
 import Header from "../component/Header";
+import Loader from "../component/Loader";
+
 import wlpr from "../assets/wlpr.jpg";
 import "./style/Contact.css";
 
 class Contact extends Component {
+  state = {
+    loading: true,
+  };
+
+  componentDidMount() {
+    setTimeout(() => {
+      this.setState({ loading: false });
+    }, 500);
+  }
+
   render() {
     return (
       <div>
+        {this.state.loading ? <Loader /> : null}
         <Header />
         <div className="container-contact">
           <div className="left-contact">

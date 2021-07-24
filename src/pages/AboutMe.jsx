@@ -3,14 +3,26 @@ import { Link } from "react-router-dom";
 import { FaPaperPlane } from "react-icons/fa";
 import { MdCopyright } from "react-icons/md";
 import Header from "../component/Header";
+import Loader from "../component/Loader";
 import prfl from "./../assets/prfl.JPG";
 import map from "./../assets/map.png";
 import "./style/AboutMe.css";
 
 class AboutMe extends Component {
+  state = {
+    loading: true,
+  };
+
+  componentDidMount() {
+    setTimeout(() => {
+      this.setState({ loading: false });
+    }, 500);
+  }
+
   render() {
     return (
       <div>
+        {this.state.loading ? <Loader /> : null}
         <Header />
         <div className="container-about">
           <div className="left-about">

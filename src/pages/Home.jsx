@@ -23,14 +23,21 @@ import {
 } from "react-icons/si";
 import Header from "../component/Header";
 import home_2 from "../assets/Home.png";
-import home_1 from "../assets/home_1.jpg";
 import prflfront from "../assets/prflfront.JPG";
+import Loader from "../component/Loader";
 import "./style/Home.css";
 
 class Home extends Component {
   state = {
     isOpen: true,
+    loading: true,
   };
+
+  componentDidMount() {
+    setTimeout(() => {
+      this.setState({ loading: false })
+   }, 500);
+  }
 
   toggleX = () => {
     this.setState({
@@ -47,6 +54,9 @@ class Home extends Component {
   render() {
     return (
       <div>
+        {
+          this.state.loading ? <Loader /> : null
+        }
         <Header />
         <div className="home-content">
           <div className="content-1">

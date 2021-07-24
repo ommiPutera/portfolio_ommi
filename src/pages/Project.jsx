@@ -3,6 +3,7 @@ import { MdCopyright } from "react-icons/md";
 import { FiArrowUpRight, FiArrowRight } from "react-icons/fi";
 import { Link } from "react-router-dom";
 import Header from "../component/Header";
+import Loader from "../component/Loader";
 import pro_1 from "./../assets/portofolio-web.png";
 import pro_2 from "./../assets/portofolio-web-1.png";
 import pro_3 from "./../assets/portofolio-web-2.png";
@@ -11,9 +12,22 @@ import pro_5 from "./../assets/portofolio-web-4.png";
 import "./style/Project.css";
 
 class Project extends Component {
+  state = {
+    loading: true
+  };
+
+  componentDidMount() {
+    setTimeout(() => {
+      this.setState({ loading: false })
+   }, 500);
+  }
+
   render() {
     return (
       <div>
+        {
+          this.state.loading ? <Loader /> : null
+        }
         <Header />
         <div className="content-project-top">
           <div className="content-project-1-left">

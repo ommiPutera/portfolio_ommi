@@ -8,20 +8,29 @@ import {
   SiCss3,
   SiHtml5,
   SiBootstrap,
-  SiPostman,
-  SiJson,
   SiMysql,
-  SiSocketDotIo,
 } from "react-icons/si";
 import Header from "../component/Header";
+import Loader from "../component/Loader";
 import home_1 from "../assets/Home.png";
 import test_aja from "../assets/testaja.png";
 import "./style/ProjectPage.css";
 
 class Project_1 extends Component {
+  state = {
+    loading: true,
+  };
+
+  componentDidMount() {
+    setTimeout(() => {
+      this.setState({ loading: false });
+    }, 500);
+  }
+
   render() {
     return (
       <div>
+        {this.state.loading ? <Loader /> : null}
         <Header />
         <div className="project-div">
           <div className="project-1-content-1">
@@ -35,7 +44,9 @@ class Project_1 extends Component {
               rel="noreferrer"
               className="link-6"
             >
-              <h5 className="link-6-sub pic-project_1">kelompok1.purwadhikafs1.com</h5>
+              <h5 className="link-6-sub pic-project_1">
+                kelompok1.purwadhikafs1.com
+              </h5>
             </a>
             <h1 className="text-0">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque

@@ -1,12 +1,16 @@
 .notfound-page {
   text-align: center;
-  margin-top: 13%;
+  margin-top: 7%;
   background-color: white;
 }
 
 .text-notfound {
-  margin-top: 2%;
+  margin-top: 3%;
   font-size: 18px;
+  width: 100%;
+  padding-left: 30%;
+  padding-right: 30%;
+  text-align: center;
   color: var(--color_dominan);
 }
 
